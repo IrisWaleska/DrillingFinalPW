@@ -1,0 +1,25 @@
+.card-body {
+  border: 2px solid green;
+}
+
+.card-img-top{
+  border: 2px solid green;
+}
+
+.card {
+  border:1px solid white;
+  background: transparent;
+}
+
+nav{
+  height: 150px;
+  
+}
+
+.navbar-brand {
+  font-family: 'Readex Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  
+}
+
