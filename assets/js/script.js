@@ -14,9 +14,9 @@ $(document).ready(function(){
                 "<h5 class='card-title'>" + data.name + "</h5>" +" <p class='card-text'> Género: " +data.gender+ "</p>"+  " <p class='card-text'> Especie: " +data.species+ "</p>" +" <p class='card-text'> Origen: " +data.origin.name+ "</p>"+ " <p class='card-text'> Estado: " +data.status+ "</p>"+ " <p class='card-text'> Location: " +data.location.name+ "</p>"+"</div> ")
                 $(image).elevateZoom({
                     zoomType: "inner",
-                    cursr: "crosshair",
+                    //cursor: "crosshair",
                     zoomWindowFadeIn: 10000,
-                    zoomWindowFadeOut: 10000
+                   zoomWindowFadeOut: 10000
                 });
     
             }
